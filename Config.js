@@ -1,19 +1,19 @@
 // hey there, kindly read this file till the end for better configuration
 
 global.settings = {
-  OWNER_NUMBERS: '2348160247341', // replace with your number with country code
-  OWNER_NAME: 'シ', // you owner name 
+  OWNER_NUMBERS: '256751617788', // replace with your number with country code
+  OWNER_NAME: 'ZIK', // you owner name 
   BOT_NAME: 'Kord AI', // your preferred bot name
-  SESSION_ID: '', // replace your_sessionid with yours and make sure its inside the ''
+  SESSION_ID: 'kord_ai-ig3fp4RNtcq0', // replace your_sessionid with yours and make sure its inside the ''
   INVINCIBLE_MODE: false, // toogle invincible mode 
-  WORK_MODE: "public",
+  WORK_MODE: "private",
   TIME_ZONE: "Africa/Lagos",
   ANTI_VIEWONCE: true,
   READ_ALL_MESSAGES: false, //commands are marked read
   AUTO_READ_STATUS: true,
   LOG_MESSAGES_AT_CONSOLE: false,
-  PREFIX: ["."], 
-  REJECT_CALLS: false,
+  PREFIX: [","], 
+  REJECT_CALLS: true,
   GROUP_EVENTS: true,
   DEFAULT_TRANSLATION_LANG: "en",
   VV_CMD: "📥",
@@ -21,11 +21,11 @@ global.settings = {
   MAX_COMMANDS_PER_MINUTE: 100,
   MAX_DOWNLOAD_SIZE: 100,
   AUTO_LIKE_STATUS: true,
-  AUTO_LIKE_EMOJI: '🫆',
+  AUTO_LIKE_EMOJI: '🇺🇬',
   BANKING_DETAILS: {
     bank: "Kord-Ai Bank", // the name of your preferred bank
-    acc_number: "1234567890", // account number for your preferred bank
-    acc_name: "MyAccountName" // name of your bank
+    acc_number: "1234890", // account number for your preferred bank
+    acc_name: "MyAccohakntName" // name of your bank
   },
   /* You can also replace the numkord_ai-Cc2TYTL6Tkf2bers with your addresses if you're using crypto, a command for this will come soon. */
   API_KEYS: {
@@ -33,17 +33,17 @@ global.settings = {
   },
   isHackEnable: true,
   SAFE_SEARCH: true,
-  REJECT_CALLS: false,
-  SEND_WELCOME_MESSAGE: false,
+  REJECT_CALLS: true,
+  SEND_WELCOME_MESSAGE: true,
   WELCOME_MESSAGE: "👋 Welcome to the group! We're glad to have you here. 😊",
-  DELETE_WA_LINKS: false,
+  DELETE_WA_LINKS: true,
   ANTI_DELETE_ENABLED: true,
   ANTI_EDIT_ENABLED: true,
-  ANTI_EDIT_IN_CHAT: false,
+  ANTI_EDIT_IN_CHAT: true,
   ANTI_PM_SPAM: false, //pm permit 
   ANTI_PM_SPAM_COUNT: 6,
   AUTO_TYPING: false, // if you wnat the bot to be typing always 
-  AUTO_RECORDING: false, //if you want the bot to be recording always
+  AUTO_RECORDING: true, //if you want the bot to be recording always
   ALWAYS_ONLINE: false,
 
 };
